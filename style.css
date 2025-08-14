@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #9288F8 ;
+}
+
+.cabecalho {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: #322653;
+    color: #9288F8;
+    text-align: center;
+}
+
+.menu {
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+h1 {
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #322653;
+}
+
+h3 {
+    text-align: center;
+}
+
+.botao {
+    text-decoration: none;
+    color: black;
+    background-color: #8062D6;
+    padding: 5px;
+    margin-inline: 3px;
+    border-bottom: 4px solid black;
+    border-right: 5px solid rgb(49, 48, 48);
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+    background-color: #FFD2D7;
+}
+
+.corpoG {
+    max-width: 800px;
+    margin: 0 auto;     /*configuração para centralizar as informações no site*/
+    padding-top: 15px;
+    text-align: center;
+}
+
+.corpoG img {
+    border: 3px solid black;
+    display: block;
+    margin: 15px auto;
+}
+
+.fotocentro {
+    padding: 15px;
+}
+
+.corpo {
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 45px;
+    padding-bottom: 50px;
+    min-height: 60px;
+    max-width: 700px;
+    text-align:justify;
+}
+
+.maps {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.rodape {
+    bottom: 0;
+    width: 100%;
+    background-color: #8062D6;
+    padding-top: 10px;
+    text-align: center;
+    min-height: 40px;
+    font-size: 18px;
+}
+
+.rbotao {
+    background-color: #8062D6;
+    text-decoration: none;
+    padding: 5px;
+    color: #322653;
+    transition: transform 0.3s, border-radius 0.3s;
+}
+
+.rbotao:hover {
+    transform: scale(1.1);
+    border-radius: 20px;
+    background-color: #FFD2D7;
+}
